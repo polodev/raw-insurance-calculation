@@ -43,12 +43,14 @@ class Act_Liability {
     // sitting cost 
     $this->passenger_amount =  ($this->sitting_capacity - 1) * self::passenger_per_seat;
     $this->total_amount_before_vat =  ($this->basic_amount + $this->driver_amount + $this->passenger_amount);
-    $this->vat = (self::vat_rate / 100) * $this->total_amount_before_vat;
+    $vat = (self::vat_rate / 100) * $this->total_amount_before_vat;
+    $this->vat = round($vat);
     $this->total_amount = $this->basic_amount + self::driver_amount + $this->passenger_amount + $this->vat;
 
     return [
       'basic' => $this->basic_amount,
       'driver' => self::driver_amount,
+      'passenger_calculation' => sprintf('%s X %s', ($this->sitting_capacity - 1), self::passenger_per_seat ),
       'passenger' => $this->passenger_amount,
       'total_amount_before_vat' => $this->total_amount_before_vat,
       'vat' => $this->vat,
