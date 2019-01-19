@@ -1,6 +1,6 @@
 <?php 
 // first 3 is variable to determine cost
-$coutry_type = [
+$country_types = [
   'schengen',
   'schengen_us_canada_worldwide',
   'worldwide',
@@ -360,10 +360,9 @@ $worldwide = [
 ];
 
 
-$omc = [
+$omc_data = [
   'schengen' => $schengen,
   'schengen_us_canada_worldwide' => $schengen_us_canada_worldwide,
   'worldwide' => $worldwide
 ];
 
-print_r($omc);

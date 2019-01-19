@@ -1,0 +1,510 @@
+
+<!-- saved from url=(0036)http://calculation.test/omc-data.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>#cVim-command-bar, #cVim-command-bar-mode, #cVim-command-bar-input, #cVim-command-bar-search-results,
+.cVim-completion-item, .cVim-completion-item .cVim-full, .cVim-completion-item .cVim-left,
+.cVim-completion-item .cVim-right {
+  font-family: Helvetica, Helvetica Neue, Neue, sans-serif, monospace, Arial;
+  font-size: 10pt !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#cVim-command-bar {
+  position: fixed;
+  z-index: 2147483646;
+  background-color: #1b1d1e;
+  color: #bbb;
+  display: none;
+  box-sizing: content-box;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  left: 0;
+  width: 100%;
+  height: 20px;
+}
+
+#cVim-command-bar-mode {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-left: 2px;
+  height: 100%;
+  width: 10px;
+  padding-top: 2px;
+  color: #888;
+}
+
+#cVim-command-bar-input {
+  background-color: #1b1d1e;
+  color: #bbb;
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: calc(100% - 10px);
+  position: absolute;
+}
+
+#cVim-command-bar-search-results {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2147483647;
+  left: 0;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  background-color: #1c1c1c;
+}
+
+.cVim-completion-item, .cVim-completion-item .cVim-full, .cVim-completion-item .cVim-left, .cVim-completion-item .cVim-right {
+  text-overflow: ellipsis;
+  padding: 1px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cVim-completion-item:nth-child(even) {
+  background-color: #1f1f1f;
+}
+
+.cVim-completion-item {
+  width: 100%; left: 0;
+  color: #bcbcbc;
+}
+
+.cVim-completion-item[active] {
+  width: 100%; left: 0;
+  color: #1b1d1e;
+  background-color: #f1f1f1;
+}
+
+.cVim-completion-item[active] span {
+  color: #1b1d1e;
+}
+
+.cVim-completion-item .cVim-left {
+  color: #fff;
+  width: 37%;
+}
+
+.cVim-completion-item .cVim-right {
+  font-style: italic;
+  color: #888;
+  width: 57%;
+}
+
+
+#cVim-link-container, .cVim-link-hint,
+#cVim-hud, #cVim-status-bar {
+  font-family: Helvetica, Helvetica Neue, Neue, sans-serif, monospace, Arial;
+  font-size: 10pt !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#cVim-link-container {
+  position: absolute;
+  pointer-events: none;
+  width: 100%; left: 0;
+  height: 100%; top: 0;
+  z-index: 2147483647;
+}
+
+.cVim-link-hint {
+  position: absolute;
+  color: #302505 !important;
+  background-color: #ffd76e !important;
+  border-radius: 2px !important;
+  padding: 2px !important;
+  font-size: 8pt !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  border: 1px solid #ad810c;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.25) !important;
+}
+
+.cVim-link-hint_match {
+  color: #777;
+  text-transform: uppercase !important;
+}
+
+
+#cVim-hud {
+  background-color: rgba(28,28,28,0.9);
+  position: fixed !important;
+  transition: right 0.2s ease-out;
+  z-index: 24724289;
+}
+
+#cVim-hud span {
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #8f8f8f;
+  font-size: 10pt;
+}
+
+#cVim-frames-outline {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 9999999999;
+  box-sizing: border-box;
+  border: 3px solid yellow;
+}
+</style></head><body class="vsc-initialized" style=""><pre>Array
+(
+    [schengen] =&gt; Array
+        (
+            [till_40] =&gt; Array
+                (
+                    [7] =&gt; 1394
+                    [10] =&gt; 1394
+                    [14] =&gt; 1394
+                    [21] =&gt; 1453
+                    [28] =&gt; 1627
+                    [35] =&gt; 2006
+                    [47] =&gt; 2298
+                    [60] =&gt; 2702
+                    [75] =&gt; 3341
+                    [90] =&gt; 3994
+                    [120] =&gt; 6753
+                    [180] =&gt; 11301
+                )
+
+            [41_to_50] =&gt; Array
+                (
+                    [7] =&gt; 1667
+                    [10] =&gt; 2000
+                    [14] =&gt; 2092
+                    [21] =&gt; 2231
+                    [28] =&gt; 2490
+                    [35] =&gt; 3007
+                    [47] =&gt; 3447
+                    [60] =&gt; 4083
+                    [75] =&gt; 5040
+                    [90] =&gt; 5975
+                    [120] =&gt; 10197
+                    [180] =&gt; 16867
+                )
+
+            [51_to_55] =&gt; Array
+                (
+                    [7] =&gt; 1667
+                    [10] =&gt; 2000
+                    [14] =&gt; 2556
+                    [21] =&gt; 2997
+                    [28] =&gt; 3347
+                    [35] =&gt; 4042
+                    [47] =&gt; 4633
+                    [60] =&gt; 5489
+                    [75] =&gt; 6775
+                    [90] =&gt; 8033
+                    [120] =&gt; 12444
+                    [180] =&gt; 22778
+                )
+
+            [56_to_59] =&gt; Array
+                (
+                    [7] =&gt; 1667
+                    [10] =&gt; 2000
+                    [14] =&gt; 2556
+                    [21] =&gt; 3222
+                    [28] =&gt; 3444
+                    [35] =&gt; 5054
+                    [47] =&gt; 5793
+                    [60] =&gt; 6000
+                    [75] =&gt; 8470
+                    [90] =&gt; 9000
+                    [120] =&gt; 12444
+                    [180] =&gt; 22778
+                )
+
+            [60_to_65] =&gt; Array
+                (
+                    [7] =&gt; 1667
+                    [10] =&gt; 2000
+                    [14] =&gt; 2556
+                    [21] =&gt; 3222
+                    [28] =&gt; 3444
+                    [35] =&gt; 5111
+                    [47] =&gt; 6000
+                    [60] =&gt; 6000
+                    [75] =&gt; 8556
+                    [90] =&gt; 9000
+                    [120] =&gt; 12444
+                    [180] =&gt; 22778
+                )
+
+            [66_to_75] =&gt; Array
+                (
+                    [7] =&gt; 2501
+                    [10] =&gt; 3000
+                    [14] =&gt; 3834
+                    [21] =&gt; 4833
+                    [28] =&gt; 5166
+                    [35] =&gt; 7667
+                    [47] =&gt; 9000
+                    [60] =&gt; 9000
+                    [75] =&gt; 12834
+                    [90] =&gt; 13500
+                    [120] =&gt; 18666
+                    [180] =&gt; 34167
+                )
+
+            [76_to_80] =&gt; Array
+                (
+                    [7] =&gt; 3334
+                    [10] =&gt; 4000
+                    [14] =&gt; 5112
+                    [21] =&gt; 6444
+                    [28] =&gt; 6888
+                    [35] =&gt; 10222
+                    [47] =&gt; 12000
+                    [60] =&gt; 12000
+                    [75] =&gt; 17112
+                    [90] =&gt; 18000
+                    [120] =&gt; 24888
+                    [180] =&gt; 45556
+                )
+
+        )
+
+    [schengen_us_canada_worldwide] =&gt; Array
+        (
+            [till_40] =&gt; Array
+                (
+                    [7] =&gt; 2553
+                    [10] =&gt; 2553
+                    [14] =&gt; 2553
+                    [21] =&gt; 2712
+                    [28] =&gt; 3065
+                    [35] =&gt; 3681
+                    [47] =&gt; 4389
+                    [60] =&gt; 7070
+                    [75] =&gt; 10166
+                    [90] =&gt; 12234
+                    [120] =&gt; 17235
+                    [180] =&gt; 30307
+                )
+
+            [41_to_50] =&gt; Array
+                (
+                    [7] =&gt; 3000
+                    [10] =&gt; 3600
+                    [14] =&gt; 4600
+                    [21] =&gt; 5061
+                    [28] =&gt; 5864
+                    [35] =&gt; 6918
+                    [47] =&gt; 8435
+                    [60] =&gt; 10800
+                    [75] =&gt; 15400
+                    [90] =&gt; 16200
+                    [120] =&gt; 22064
+                    [180] =&gt; 41000
+                )
+
+            [51_to_55] =&gt; Array
+                (
+                    [7] =&gt; 3000
+                    [10] =&gt; 3600
+                    [14] =&gt; 4600
+                    [21] =&gt; 5800
+                    [28] =&gt; 6200
+                    [35] =&gt; 8784
+                    [47] =&gt; 10710
+                    [60] =&gt; 10800
+                    [75] =&gt; 15400
+                    [90] =&gt; 16200
+                    [120] =&gt; 22064
+                    [180] =&gt; 41000
+                )
+
+            [56_to_59] =&gt; Array
+                (
+                    [7] =&gt; 3000
+                    [10] =&gt; 3600
+                    [14] =&gt; 4600
+                    [21] =&gt; 5800
+                    [28] =&gt; 6200
+                    [35] =&gt; 9200
+                    [47] =&gt; 10800
+                    [60] =&gt; 10800
+                    [75] =&gt; 15400
+                    [90] =&gt; 16200
+                    [120] =&gt; 22064
+                    [180] =&gt; 41000
+                )
+
+            [60_to_65] =&gt; Array
+                (
+                    [7] =&gt; 3000
+                    [10] =&gt; 3600
+                    [14] =&gt; 4600
+                    [21] =&gt; 5800
+                    [28] =&gt; 6200
+                    [35] =&gt; 9200
+                    [47] =&gt; 10800
+                    [60] =&gt; 10800
+                    [75] =&gt; 15400
+                    [90] =&gt; 16200
+                    [120] =&gt; 22064
+                    [180] =&gt; 41000
+                )
+
+            [66_to_75] =&gt; Array
+                (
+                    [7] =&gt; 4500
+                    [10] =&gt; 5400
+                    [14] =&gt; 6900
+                    [21] =&gt; 8700
+                    [28] =&gt; 9300
+                    [35] =&gt; 13800
+                    [47] =&gt; 16200
+                    [60] =&gt; 16200
+                    [75] =&gt; 23100
+                    [90] =&gt; 24300
+                    [120] =&gt; 33600
+                    [180] =&gt; 61500
+                )
+
+            [76_to_80] =&gt; Array
+                (
+                    [7] =&gt; 6000
+                    [10] =&gt; 7200
+                    [14] =&gt; 9200
+                    [21] =&gt; 11600
+                    [28] =&gt; 12400
+                    [35] =&gt; 18400
+                    [47] =&gt; 21600
+                    [60] =&gt; 21600
+                    [75] =&gt; 30800
+                    [90] =&gt; 32400
+                    [120] =&gt; 44800
+                    [180] =&gt; 82000
+                )
+
+        )
+
+    [worldwide] =&gt; Array
+        (
+            [till_40] =&gt; Array
+                (
+                    [7] =&gt; 1115
+                    [10] =&gt; 1115
+                    [14] =&gt; 1115
+                    [21] =&gt; 1162
+                    [28] =&gt; 1301
+                    [35] =&gt; 1605
+                    [47] =&gt; 1838
+                    [60] =&gt; 2162
+                    [75] =&gt; 2673
+                    [90] =&gt; 3195
+                    [120] =&gt; 5403
+                    [180] =&gt; 9041
+                )
+
+            [41_to_50] =&gt; Array
+                (
+                    [7] =&gt; 1500
+                    [10] =&gt; 1674
+                    [14] =&gt; 1674
+                    [21] =&gt; 1785
+                    [28] =&gt; 1992
+                    [35] =&gt; 2406
+                    [47] =&gt; 2757
+                    [60] =&gt; 3266
+                    [75] =&gt; 4032
+                    [90] =&gt; 4780
+                    [120] =&gt; 8157
+                    [180] =&gt; 13493
+                )
+
+            [51_to_55] =&gt; Array
+                (
+                    [7] =&gt; 1500
+                    [10] =&gt; 1800
+                    [14] =&gt; 2249
+                    [21] =&gt; 2398
+                    [28] =&gt; 2678
+                    [35] =&gt; 3233
+                    [47] =&gt; 3707
+                    [60] =&gt; 4391
+                    [75] =&gt; 5420
+                    [90] =&gt; 6426
+                    [120] =&gt; 10966
+                    [180] =&gt; 18293
+                )
+
+            [56_to_59] =&gt; Array
+                (
+                    [7] =&gt; 1500
+                    [10] =&gt; 1800
+                    [14] =&gt; 2300
+                    [21] =&gt; 2900
+                    [28] =&gt; 3100
+                    [35] =&gt; 4043
+                    [47] =&gt; 4634
+                    [60] =&gt; 5400
+                    [75] =&gt; 6776
+                    [90] =&gt; 8033
+                    [120] =&gt; 11200
+                    [180] =&gt; 20500
+                )
+
+            [60_to_65] =&gt; Array
+                (
+                    [7] =&gt; 1500
+                    [10] =&gt; 1800
+                    [14] =&gt; 2300
+                    [21] =&gt; 2900
+                    [28] =&gt; 3100
+                    [35] =&gt; 4600
+                    [47] =&gt; 5400
+                    [60] =&gt; 5400
+                    [75] =&gt; 7700
+                    [90] =&gt; 8100
+                    [120] =&gt; 11200
+                    [180] =&gt; 20500
+                )
+
+            [66_to_75] =&gt; Array
+                (
+                    [7] =&gt; 2250
+                    [10] =&gt; 2700
+                    [14] =&gt; 3450
+                    [21] =&gt; 4350
+                    [28] =&gt; 4650
+                    [35] =&gt; 6900
+                    [47] =&gt; 8100
+                    [60] =&gt; 8100
+                    [75] =&gt; 11550
+                    [90] =&gt; 12150
+                    [120] =&gt; 16800
+                    [180] =&gt; 30750
+                )
+
+            [76_to_80] =&gt; Array
+                (
+                    [7] =&gt; 3000
+                    [10] =&gt; 3600
+                    [14] =&gt; 4600
+                    [21] =&gt; 5800
+                    [28] =&gt; 6200
+                    [35] =&gt; 9200
+                    [47] =&gt; 10800
+                    [60] =&gt; 10800
+                    [75] =&gt; 15400
+                    [90] =&gt; 16200
+                    [120] =&gt; 22400
+                    [180] =&gt; 41000
+                )
+
+        )
+
+)
+</pre></body><div id="cVim-status-bar" style="top: 0px;"></div><iframe src="./omc-data.php_files/cmdline_frame.html" id="cVim-command-frame"></iframe></html>
