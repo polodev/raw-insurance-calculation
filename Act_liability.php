@@ -16,6 +16,8 @@ class Act_Liability {
 
   public function __construct($cc, $sitting_capacity)
   {
+    // all variable for calculating
+    //premium are passing inside __construct
     $this->cc = $cc;
     $this->sitting_capacity = $sitting_capacity;
   }

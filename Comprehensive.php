@@ -19,6 +19,8 @@ class Comprehensive {
 
   public function __construct($car_value, $cc, $sitting_capacity)
   {
+    // all variable for calculating
+    //premium are passing inside __construct
     $this->cc = $cc;
     $this->sitting_capacity = $sitting_capacity;
     $this->car_value = $car_value;
