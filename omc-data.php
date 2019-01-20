@@ -38,6 +38,7 @@ $schengen_till_40 = [
   '180' => 11301,
 ];
 
+
 $schengen_41_to_50 = [
   '7' => 1667,
   '10' => 2000,
@@ -365,4 +366,3 @@ $omc_data = [
   'schengen_us_canada_worldwide' => $schengen_us_canada_worldwide,
   'worldwide' => $worldwide
 ];
-
