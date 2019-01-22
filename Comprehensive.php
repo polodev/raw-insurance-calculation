@@ -1,7 +1,6 @@
-<?php 
+<?php
 
 class Comprehensive {
-
   const driver_amount = 30;
   const passenger_per_seat = 45;
   const vat_rate = 15;

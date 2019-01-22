@@ -23,7 +23,6 @@ function get_omc($country_type, $age, $days){
 get_omc(1, 45, 20);
 get_omc(2, 22, 110);
 get_omc(3, 33, 88);
-get_omc([1, 2, 3, 4, 5, 5])
 
 // foreach (range(1, 20) as $value) {
 //   get_omc(
@@ -32,7 +31,4 @@ get_omc([1, 2, 3, 4, 5, 5])
 //     rand(1, 120)
 //   );
 // }
-
-
-
 
